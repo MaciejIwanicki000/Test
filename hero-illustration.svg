@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb" stop-opacity=".10"></stop>
+      <stop offset="1" stop-color="#14b8a6" stop-opacity=".10"></stop>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="420" rx="24" fill="url(#bg)"></rect>
+  <rect x="70" y="70" width="560" height="280" rx="24" fill="#ffffff" opacity=".85"></rect>
+  <rect x="100" y="110" width="240" height="20" rx="10" fill="#2563eb" opacity=".25"></rect>
+  <rect x="100" y="150" width="360" height="14" rx="7" fill="#0b1220" opacity=".12"></rect>
+  <rect x="100" y="176" width="300" height="14" rx="7" fill="#0b1220" opacity=".10"></rect>
+  <rect x="100" y="210" width="200" height="44" rx="16" fill="#2563eb" opacity=".16"></rect>
+  <rect x="320" y="210" width="200" height="44" rx="16" fill="#14b8a6" opacity=".14"></rect>
+
+  <circle cx="520" cy="150" r="54" fill="#2563eb" opacity=".14"></circle>
+  <path d="M520 108c22 16 38 16 49 18v46c0 28-19 50-49 58-30-8-49-30-49-58v-46c11-2 27-2 49-18z" fill="#ffffff" opacity=".92"></path>
+  <path d="M494 160l14 14 28-34" fill="none" stroke="#0f2b5b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
