@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Kontakt – Ubezpieczenia Oborniki Wielkopolskie. Telefon, WhatsApp, formularz." />
+  <title>Kontakt | Ubezpieczenia – Oborniki Wielkopolskie</title>
+
+  <link rel="icon" href="assets/logo/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html">
+      <img src="assets/logo/logo.svg" class="brand__logo" alt="Logo" />
+      <div class="brand__text">
+        <div class="brand__name">Ubezpieczenia</div>
+        <div class="brand__sub">Oborniki i okolice</div>
+      </div>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link" href="oferta.html">Oferta</a>
+      <a class="nav__link" href="o-mnie.html">O mnie</a>
+      <a class="nav__link is-active" href="kontakt.html">Kontakt</a>
+    </nav>
+
+    <button class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main class="page">
+
+  <!-- HERO -->
+  <section class="pageHero">
+    <div class="container pageHero__inner">
+      <div>
+        <h1>Kontakt</h1>
+        <p class="muted">Wybierz wygodną formę kontaktu – odpowiadam szybko.</p>
+      </div>
+      <div class="pageHero__cta">
+        <a class="btn btn--primary" href="tel:+48664755344">📞 Zadzwoń</a>
+        <a class="btn btn--ghost" target="_blank"
+           href="https://wa.me/48664755344">
+           💬 WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARZ -->
+  <section class="section">
+    <div class="container twoCol">
+
+      <div>
+        <h2>Formularz kontaktowy</h2>
+        <p class="muted">Zostaw dane – oddzwonię lub odpiszę z propozycją.</p>
+
+        <!-- PODMIEŃ YOUR_FORMSPREE_ID -->
+        <form class="form"
+              action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+              method="POST">
+
+          <div class="form__row">
+            <label>
+              Imię
+              <input type="text" name="imie" required>
+            </label>
+
+            <label>
+              Telefon
+              <input type="tel" name="telefon">
+            </label>
+          </div>
+
+          <div class="form__row">
+            <label>
+              Email
+              <input type="email" name="email">
+            </label>
+
+            <label>
+              Rodzaj ubezpieczenia
+              <select name="rodzaj">
+                <option>OC / AC</option>
+                <option>Na życie</option>
+                <option>Zdrowotne</option>
+                <option>Majątkowe</option>
+                <option>Firmowe</option>
+                <option>Inne</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            Wiadomość
+            <textarea name="wiadomosc" rows="6" required></textarea>
+          </label>
+
+          <button class="btn btn--primary" type="submit">
+            Wyślij wiadomość
+          </button>
+        </form>
+      </div>
+
+      <!-- DANE KONTAKTOWE -->
+      <div class="infoCard">
+        <div class="pill pill--blue">Dane kontaktowe</div>
+
+        <div class="miniList" style="margin-top:15px;">
+          <div>📍 Armii Poznań 7</div>
+          <div>64-600 Oborniki Wielkopolskie</div>
+          <div>📞 <a href="tel:+48664755344">664 755 344</a></div>
+          <div>💬 <a target="_blank"
+              href="https://wa.me/48664755344">WhatsApp</a></div>
+        </div>
+
+        <div class="line"></div>
+
+        <h4>Szybciej?</h4>
+        <p class="muted">Najlepiej napisać na WhatsApp – odpowiadam najszybciej.</p>
+
+        <a class="btn btn--soft w100"
+           target="_blank"
+           href="https://wa.me/48664755344">
+           Napisz na WhatsApp
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer footer--simple">
+  <div class="container footer__bottom">
+    <div>© <span id="year"></span> Ubezpieczenia</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
