@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Kontakt – Ubezpieczenia Oborniki Wielkopolskie. Telefon, WhatsApp, formularz." />
-  <title>Kontakt | Ubezpieczenia – Oborniki Wielkopolskie</title>
+  <meta name="description" content="Kontakt – Maciej Iwanicki Ubezpieczenia. Telefon, WhatsApp, formularz." />
+  <title>Kontakt | Maciej Iwanicki Ubezpieczenia</title>
 
   <link rel="icon" href="assets/logo/logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -12,13 +12,34 @@
 
 <body>
 
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="container topbar__inner">
+    <div class="topbar__left">
+      <span class="badge">Oborniki Wielkopolskie</span>
+      <a class="topbar__link" href="tel:+48664755344">📞 664 755 344</a>
+      <span class="dot">•</span>
+      <a class="topbar__link" target="_blank" rel="noopener"
+         href="https://wa.me/48664755344">
+         💬 WhatsApp
+      </a>
+    </div>
+    <div class="topbar__right">
+      <a class="topbar__link" href="index.html#opinie">⭐ Opinie</a>
+      <span class="dot">•</span>
+      <a class="topbar__link" href="kontakt.html">📩 Kontakt</a>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
 <header class="header">
   <div class="container header__inner">
     <a class="brand" href="index.html">
       <img src="assets/logo/logo.svg" class="brand__logo" alt="Logo" />
       <div class="brand__text">
-        <div class="brand__name">Ubezpieczenia</div>
-        <div class="brand__sub">Oborniki i okolice</div>
+        <div class="brand__name">Maciej Iwanicki Ubezpieczenia</div>
+        <div class="brand__sub">Cała Polska</div>
       </div>
     </a>
 
@@ -27,6 +48,7 @@
       <a class="nav__link" href="oferta.html">Oferta</a>
       <a class="nav__link" href="o-mnie.html">O mnie</a>
       <a class="nav__link is-active" href="kontakt.html">Kontakt</a>
+      <a class="btn btn--small btn--primary" href="#formularz">Zostaw kontakt</a>
     </nav>
 
     <button class="burger" id="burger">
@@ -55,14 +77,14 @@
   </section>
 
   <!-- FORMULARZ -->
-  <section class="section">
+  <section class="section" id="formularz">
     <div class="container twoCol">
 
       <div>
         <h2>Formularz kontaktowy</h2>
         <p class="muted">Zostaw dane – oddzwonię lub odpiszę z propozycją.</p>
 
-        <!-- PODMIEŃ YOUR_FORMSPREE_ID -->
+        <!-- PODMIEŃ ID FORMULARZA -->
         <form class="form"
               action="https://formspree.io/f/YOUR_FORMSPREE_ID"
               method="POST">
@@ -109,7 +131,7 @@
         </form>
       </div>
 
-      <!-- DANE KONTAKTOWE -->
+      <!-- DANE -->
       <div class="infoCard">
         <div class="pill pill--blue">Dane kontaktowe</div>
 
@@ -138,9 +160,39 @@
 
 </main>
 
-<footer class="footer footer--simple">
+<!-- IDENTYCZNA STOPKA -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__col">
+      <div class="footer__brand">
+        <img src="assets/logo/logo.svg" alt="" />
+        <div>
+          <div class="footer__name">Maciej Iwanicki Ubezpieczenia</div>
+          <div class="footer__sub">Oborniki Wielkopolskie</div>
+        </div>
+      </div>
+      <div class="footer__small">
+        Adres: Armii Poznań 7, 64-600 Oborniki Wielkopolskie<br />
+        Telefon: <a href="tel:+48664755344">664 755 344</a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <div class="footer__title">Menu</div>
+      <a href="oferta.html">Oferta</a>
+      <a href="o-mnie.html">O mnie</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+
+    <div class="footer__col">
+      <div class="footer__title">Szybki kontakt</div>
+      <a target="_blank" rel="noopener" href="https://wa.me/48664755344">WhatsApp</a>
+      <a href="#formularz">Formularz</a>
+    </div>
+  </div>
+
   <div class="container footer__bottom">
-    <div>© <span id="year"></span> Ubezpieczenia</div>
+    <div>© <span id="year"></span> Maciej Iwanicki Ubezpieczenia</div>
   </div>
 </footer>
 
